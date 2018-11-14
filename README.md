@@ -16,9 +16,9 @@ We assume you have a `users00.txt` file where each line is the full URL to that 
 
 | users00.txt
 ```txt 
-https://www.instagram.com/fumikoteijo/
-https://www.instagram.com/irene.rvelvet/
-https://www.instagram.com/hrk.m310/
+https://www.instagram.com/somepersononinstagram/
+https://www.instagram.com/arandomdude/
+https://www.instagram.com/areyouevenreal/
 ```
 
 The filename of a users file will become a section. Pictures from a section will be downloaded into a folder named for the section. In our example case, the 3 users will be downloaded to a `/users00/` folder.
@@ -68,7 +68,7 @@ If you want to see what users will be dequeued and what Instalooter command will
 
 ```bash
 >> python ./ilm.py -sd -m
-<< instalooter user fumikoteijo ./pics/batch_test/users00/fumikoteijo
+<< instalooter user somepersononinstagram ./pics/batch_test/users00/somepersononinstagram
 ```
 
 # Current Limitations
