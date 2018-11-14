@@ -1,18 +1,20 @@
 # ILM - Instalooter Monitor
 
-Instalooter crashes a lot and has no tools for timeout recovery.  
+[Instalooter](https://github.com/althonos/InstaLooter) crashes a lot and has no tools for timeout recovery.  
 This tool exists to be a monitor for large instagram download sessions where being rate limited or encountering invalid users is likely.
 
 This script is intended to essentially replace the batch option from instalooter.
 
 ## Requirements
-You must have Instalooter installed and accessible from your shell
+
+* Python 3.x
+* [Instalooter](https://github.com/althonos/InstaLooter) must be installed and accessible from your shell
 
 ## Usage
 
 We assume you have a `users00.txt` file where each line is the full URL to that users instagram page:
 
-| users.txt
+| users00.txt
 ```txt 
 https://www.instagram.com/fumikoteijo/
 https://www.instagram.com/irene.rvelvet/
@@ -78,4 +80,3 @@ If you want to see what users will be dequeued and what Instalooter command will
     #ilmdbtools.SetInvalid(profname, returncode)
     #continue
     ```
-    
